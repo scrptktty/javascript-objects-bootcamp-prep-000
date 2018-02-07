@@ -1,6 +1,5 @@
 var playlist = {
-  toto: "africa",
-  madonna: "like a virgin"
+  
   
 }
 
