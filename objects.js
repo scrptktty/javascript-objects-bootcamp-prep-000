@@ -7,9 +7,9 @@ function updatePlaylist(playlist, artist, song) {
   
   return Object.assign({}, playlist, {[artist]: song} )
   
-  playlist[artist] = song;
+  playlist[artist] = song
   
-  // playlist.artist --> dynamic property access
+  // playlist.artist --> static property access
   
   // playlist["artist"] --> static property access
   
