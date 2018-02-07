@@ -4,13 +4,9 @@ var playlist = {
 
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  
   return Object.assign({}, playlist, { [artistName]: songTitle })
-
-  // playlist.artist --> static property access
-  
-  // playlist["artist"] --> static property access
-
 }
 
-function removeFromPlaylist() {}
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist.artistName
+}
