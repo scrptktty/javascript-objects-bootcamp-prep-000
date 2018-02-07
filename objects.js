@@ -5,10 +5,10 @@ var playlist = {
 
 function updatePlaylist(playlist, artist, song) {
   
-  playlist[artist] = song
+  // playlist[artist] = song
   
-  return playlist
-  
+  // return playlist
+
   // playlist.artist --> static property access
   
   // playlist["artist"] --> static property access
