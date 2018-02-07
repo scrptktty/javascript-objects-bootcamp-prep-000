@@ -5,12 +5,7 @@ var playlist = {
 
 function updatePlaylist(playlist, artistName, songTitle) {
   
-  return Object.assign({}, playlist, { artistName[songTitle] })
-
- 
-  // playlist[artist] = song
-  
-  // return playlist
+  return Object.assign({}, playlist, { [artistName]: songTitle })
 
   // playlist.artist --> static property access
   
