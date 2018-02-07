@@ -1,5 +1,5 @@
 var playlist = {}
 
-function updatePlaylist() {}
+function updatePlaylist(playlist, artist, song) {}
 
 function removeFromPlaylist() {}
