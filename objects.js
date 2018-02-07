@@ -1,4 +1,6 @@
-var playlist = {}
+var playlist = {
+  Madonna: "Like A Virgin"
+}
 
 
 function updatePlaylist(playlist, artist, song) {
